@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 25px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navlist ul{
+    display: flex;
+    padding-top: 10px;
+}
+
+nav .logo1{
+    color: rgb(241, 100, 241);
+    font-size: 35px;
+    font-weight: bold;
+    /* font-family:sans-serif; */
+}
+
+nav .logo2{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.navlist ul li a{
+    /* list-style: none; */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navlist ul li{
+    padding-left: 30px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.home .home-text .abc{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(37, 36, 36);
+}
+
+.home .home-text .abcd{
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.home .home-text{
+    padding-top: 80px;
+}
+
+.home .home-text p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.home{
+    background-color: rgb(207, 236, 247);
+    height: 100vh;
+}
+
+.home .home-text h3{
+    font-size: 28px;
+    text-align: center;
+}
+
+.home .home-text button{
+    margin-left: 250px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.home .home-img img{
+    width: 550px;
+    height: 400px;
+}
+
+/*--------------- service--------------- */
+
+.containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    /* flex-wrap: wrap; */
+    padding: 40px 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(175, 231, 253);
+}
+
+.card{
+    position: relative;
+    width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.05),
+                        5px 5px 5px rgba(0, 0, 0, 0.05),
+                        -5px -5px 5px rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+}
+
+.box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #2b292b;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 15px;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+.card:hover .box{
+    transform: translateY(-50px);
+    box-shadow: 0 0px 40px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg , #f185e5 , #f65edf);
+
+}
+
+.contant{
+    padding: 0 10px;
+}
+
+.contant p{
+  color: beige;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/*-------------- service---------------- */
+
+
+/* --------------Contact US------------ */
+
+.form-section{
+  padding: 32px 16px 64px;
+}
+
+.form-line{
+  border-top: 8px solid #f58ee4;
+  width: 85px;
+  margin-bottom: 15px;
+}
+
+.form-div h3{
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.form-div p{
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form-div input{
+  width: 300px;
+  height: 45px;
+  font-size: 17px;
+  padding-left: 15px;
+  background-color: #181818;
+  border: 1px solid rgb(69, 68, 68);
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.form-div button{
+  background-color: #000000;
+  color: #fff;
+  padding: 13px 28px;
+  font-size: 17px;
+  border: 3px solid #eb8ee0;
+  font-weight: 300;
+}
+
+.form-img{
+  box-shadow: 3px 3px 4px #ee71d5;
+}
+
+.form-img img{
+  width: 430px;
+  height: 430px;
+}
+
+.form{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .name-text h1{
+    font-size: 35px;
+    background-image: linear-gradient(to right, #f177d0, rgb(240, 126, 226));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  footer .name-text p{
+    color: #999999;
+    letter-spacing: 1px;
+    padding: 15px 0 20px;
+  }
+
+  footer .name-text p:hover{
+    background-image: linear-gradient(to right, #eb7dc7, rgb(243, 122, 232));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+
+  footer .name-text i{
+    color: #999999;
+    padding-right: 25px;
+    font-size: 23px;
+  }
+
+  footer .name-text i:hover{
+    color: #ff7143;
+  }
+
+  footer .contact-text .phone-box{
+    color: #999999;
+    font-size: 17px;
+   }
+
+   footer .contact-text .phone-box:hover{
+    background-image: linear-gradient(to right, #f687d2, rgb(248, 149, 217));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   }
+
+
+   footer .contact-text .email-box:hover{
+    background-image: linear-gradient(to right, #e973b9, rgb(240, 143, 198));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   }
+
+   footer .contact-text h2{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 28px;
+   }
+
+  footer .contact-text .email-box{
+  margin: 10px 0 15px 0;
+  color: #999999;
+  font-size: 17px;
+ }
+
+  footer .contact-text button{
+    border: 3px solid #f17ed5;
+    padding: 15px 50px;
+    color: #fff;
+    background-color: #181818;
+    cursor: pointer;
+  }
+
+  footer .contact-text button:hover{
+    background-image: linear-gradient(to right, #ed7ec4, rgb(225, 127, 180));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  footer .text h1{
+    color: #fff;
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+
+  footer .text h2{
+    color: #999999;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  footer .text h2:hover{
+    background-image: linear-gradient(to right, #e566c5, rgb(248, 116, 233));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  footer .links h1{
+    color: #fff;
+    padding-bottom: 20px;
+  }
+
+  footer .links h2{
+    font-size: 17px;
+    color: #999999;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  footer .links h2:hover{
+    background-image: linear-gradient(to right, #ec7fcd, rgb(225, 141, 201));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  footer{
+    background-color: #181818;
+    padding: 42px 16px 64px;
+  }
+
+  /*------------ Contact Us------------ */
+
+  /*------------- Category--------- */
+
+  .search .searchh{
+    padding: 5px 170px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .search{
+    margin: 50px 430px;
+
+  }
+
+  .category-section div h1{
+    color: black;
+  }
+
+ .category-section .f1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+ }
+
+ .category-section .img1{
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.401);
+ }
+
+ .category-section img{
+  height: 200px;
+  width: 300px;
+ }
+
+ .category-section .f2{
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+ .mm{
+  text-decoration: none;
+ }
+
+
+ .abcde{
+  text-decoration: none;
+  color: #000000 ;
+ }
+
+  /*------------- Category--------- */
+
+
+  /* About */
+
+  .about{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+
+  .about .about-text h1,p{
+    color: black;
+  }
+
+  .about .about-img img{
+    width: 600px;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+
+  .aa1 .x1 img{
+    width: 300px;
+    height: 200px;
+  }
+
+  .x1 .cv{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+  .x1 .cv button{
+    margin-left: 195px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: yellow;
+  }
+
+  .abc5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
